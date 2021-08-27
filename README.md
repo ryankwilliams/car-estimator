@@ -6,7 +6,7 @@ purchasing a new car.
 The main intention of this project was to get more familar with go
 programming langugage syntax.
 
-## Prereuisites
+## Prerequisites
 
 1. Make sure you have golang installed. Refer to their official
 [documentation](https://golang.org/doc/install) for more details.
