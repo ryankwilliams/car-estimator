@@ -54,7 +54,7 @@ func getDownPayment() float64 {
 }
 
 // Gets all required input from the user and returns the car estimator struct
-func getInput(car carEstimator) carEstimator {
+func getUserInput(car carEstimator) carEstimator {
 	fmt.Println("** Car Estimator **")
 
 	car.carPrice = getCarPrice()
@@ -72,7 +72,7 @@ func CalculateTotalCost() {
 	var carCostWithTradeTotal float64
 	var salesTaxTotal float64
 
-	car = getInput(car)
+	car = getUserInput(car)
 
 	carCostWithTradeTotal = car.carPrice - car.tradePrice
 	salesTaxTotal = carCostWithTradeTotal * car.stateSalesTax
